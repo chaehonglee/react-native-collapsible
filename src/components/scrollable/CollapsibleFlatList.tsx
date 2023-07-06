@@ -108,7 +108,7 @@ export default function CollapsibleFlatList<Data>({
       {/* @ts-ignore */}
       <AnimatedFlatList
         ref={scrollViewRef}
-        bounces={false}
+        bounces={true}
         keyboardDismissMode="on-drag"
         keyboardShouldPersistTaps="handled"
         scrollEventThrottle={1}
